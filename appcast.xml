@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>OpenUsage</title>
+        <item>
+            <title>0.8.1-beta.4</title>
+            <pubDate>Sat, 21 Nov 2026 00:15:09 +0530</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>909</sparkle:version>
+            <sparkle:shortVersionString>0.8.1-beta.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[First Fiaxe release, built on upstream OpenUsage [0.8.1-beta.3](https://github.com/robinebers/openusage/releases/tag/v0.8.1-beta.3).
+
+## New providers
+
+- **Inworld**: sign in on the Inworld Portal. Shows **Plan Credits** as a bar, your balance against the plan's monthly credit grant (`$100` on Builder), refilling on your next billing date, and the **Credits** balance under it.
+- **Sarvam**: sign in on Sarvam's dashboard. Shows the organisation's credit balance.
+- **DeepSeek**: API key. Shows the balance in the account's currency.
+- **Plivo**: Auth ID and Auth Token. Shows the account's cash credits.
+
+## Changes
+
+- **Claude long-lived tokens**: add a Claude account by pasting a token from `claude setup-token`.
+- **Show Amounts In**: show amounts in another currency, such as INR, at the ECB's daily rates.
+- **Fiaxe release & auto-updates**: dedicated bundle ID (`com.fiaxe.usage`), EdDSA-signed Sparkle update feed via `fiaxe-hq/fiaxe-usage-releases`, Fiaxe links in About / Report an Issue, and upstream PostHog telemetry disabled.
+- A saved sign-in this build can't read now says so instead of reporting an invalid response.
+]]></description>
+            <enclosure url="https://github.com/fiaxe-hq/fiaxe-usage-releases/releases/download/v0.8.1-beta.4/OpenUsage-0.8.1-beta.4.dmg" length="20168682" type="application/octet-stream" sparkle:edSignature="GTvwRd2w+ydrJlr0XoBkqG4WBwREFRxH0QdvotX9edsQIqa703DV3H7HNRQfoEzMQxhUAXXA7wFTEHRS3QZ+Ag=="/>
+        </item>
+    </channel>
+</rss>
