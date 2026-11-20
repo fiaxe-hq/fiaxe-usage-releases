@@ -24,8 +24,9 @@
 - **Show Amounts In**: show amounts in another currency, such as INR, at the ECB's daily rates.
 - **Fiaxe release & auto-updates**: dedicated bundle ID (`com.fiaxe.usage`), EdDSA-signed Sparkle update feed via `fiaxe-hq/fiaxe-usage-releases`, Fiaxe links in About / Report an Issue, and upstream PostHog telemetry disabled.
 - A saved sign-in this build can't read now says so instead of reporting an invalid response.
+
 ]]></description>
-            <enclosure url="https://github.com/fiaxe-hq/fiaxe-usage-releases/releases/download/v0.8.1-beta.4/OpenUsage-0.8.1-beta.4.dmg" length="20168682" type="application/octet-stream" sparkle:edSignature="GTvwRd2w+ydrJlr0XoBkqG4WBwREFRxH0QdvotX9edsQIqa703DV3H7HNRQfoEzMQxhUAXXA7wFTEHRS3QZ+Ag=="/>
+            <enclosure url="https://github.com/fiaxe-hq/fiaxe-usage-releases/releases/download/v0.8.1-beta.4/OpenUsage-0.8.1-beta.4.dmg" length="20177599" type="application/octet-stream" sparkle:edSignature="/xHlXiMD9a+eybhk8NR7RcQqL6tZYNw7m+sG3FaSTFuWtgIeQ5N4knFHoC5FWsbv2rNF3xwtHY5V1Bof1dBpBA=="/>
         </item>
     </channel>
 </rss>
